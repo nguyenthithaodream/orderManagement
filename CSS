@@ -1,0 +1,218 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.wrapper{
+    width: 1200px;
+    height: 640px;
+    border: 1px solid deepskyblue;
+    margin: auto;
+}
+body{
+    font-family: helvetica ;
+    font-size: 13px;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    border: 1px solid deepskyblue;
+    background-color: deepskyblue;
+}
+.logo{
+    width:200px;
+    height:50px;
+    line-height: 40px;
+    float:left;
+    border: 1px solid deepskyblue;
+}
+.add{
+    clear:right;
+    width: auto;
+    height: 50px;
+    border: 1px solid deepskyblue;
+}
+.body{
+    width: 100%;
+    height: 587px;
+    border: 1px solid deepskyblue;
+    border-collapse: collapse;
+    
+}
+.menu{
+    width: 200px;
+    height: 587px;
+    border: 0.5px solid deepskyblue;
+    background-color: white;
+    float: left;
+}
+.content{
+    clear: right;
+    width: auto;
+    height: 587px;
+    border: 1px solid deepskyblue;
+    background-color: white;
+}
+
+.ul1 a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 0px 0px 5px;
+    display: block;
+    font-weight: bold;
+}
+.ul1 li{
+    list-style-type: none;
+    border-bottom: 0.5px solid deepskyblue;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+}
+.ul1 li:hover{
+    background-color: cornflowerblue;
+}
+.ul1 .sub-menu{
+    left: 200px;
+    top: 0px;
+    width: 200px;
+    position: absolute;
+    background-color: white;
+    display: none;
+}
+.ul1 li:hover .sub-menu{
+    display:block;
+    border: 0.5px solid deepskyblue;
+}
+.ul1 .icon1:after{
+    content:'\203A';
+    float: right;
+    margin-right: 10px;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+}
+.ul1 li:hover .icon1:after{
+    content:'\2039';
+}
+.table1{
+    border: 1px solid deepskyblue;
+    border-collapse: collapse;
+}
+
+.table1 td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+}
+.dsTaiKhoan{
+    margin: 20px 0px 0px 350px;
+}
+.dsTaiKhoan1{
+    margin: 20px 0px 0px 240px;
+}
+.table1 tr:hover{
+    background: deepskyblue;
+    cursor: pointer;
+}
+.table1 tr:nth-child(odd){
+    background-color:#eee;
+}
+.table1 tr:nth-child(even){
+    background-color:white;
+}
+.table1 tr:nth-child(1){
+    background-color:skyblue;
+}
+
+.form1 {
+    height: 555px;
+    width: 600px;
+    background-color: aliceblue;
+    padding: 10px 30px 0px 30px;
+    line-height: 20px;
+}
+input[type=text],[type=password],[type=email],select{
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 1px solid purple;
+    height: 30px; margin: 5px 5px 5px 5px;
+}
+input[type=text]:focus,input[type=password]:focus,input[type=email]:focus,select:focus{
+    background-color: deepskyblue;
+    color: white; margin: 5px 5px 5px 5px;
+}
+.submitDSDangNhap{
+    width:50px;
+    height: 30px;
+    margin: 3px 10px;
+    background-color: lightblue;
+    border-radius: 4px;
+    text-align: center;
+}
+.loi{
+    color: red;
+}
+.tableDangNhap{
+    width: 500px;background-color: deepskyblue; margin: 200px 150px 0px 350px;line-height: 50px; padding: 5px 5px 5px 5px;
+}
+.textDangNhap{
+    width: 50px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+.a_header:hover{
+    color: purple;
+}
+.tableThongBaoQuyen{
+    width: 400px; height: 180px; background-color: deepskyblue;text-align: center;line-height: 50px;margin: 100px 0px 0px 500px ;
+}
+.taoMoiDonHang{
+    width: 950px;
+    height:460px;
+    margin: 50px 0px 30px 230px;
+    border: 1px solid deepskyblue;overflow: auto;
+    background-color: aliceblue;
+}
+.taoMoiDonHang_ngan{
+    width: 950px;
+    height:460px;
+    margin: 50px 0px 30px 230px;
+    border: 1px solid deepskyblue;overflow: auto;
+    background-color: aliceblue;
+}
+.formTranDonHang{
+    
+}
+.clear{
+    clear:both;
+}
+.table2{
+    margin: 10px auto;
+    
+}
+.table2 td{
+    line-height: 30px;
+}
+
+.input1{
+    margin: 5px 10px 5px 5px;
+}
+.left{
+    width: 430px;
+    height: auto;
+    float: left;
+    padding: 0px 0px 0px 5px;
+    margin: 0px 0px 0px 5px;
+}
+.right{
+    width: 440px;
+    height: auto;
+    float: right;
+    padding: 0px 5px 0px 0px;
+    margin: 0px 5px 0px 0px;
+}
